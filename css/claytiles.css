@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --green: rgb(15, 146, 67);
+    --grey: rgb(181, 181, 181);
+    --yellow: rgb(255, 240, 1);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+
+}
+
+
+/* /////////navbar start///////// */
+.navbar-brand {
+    display: flex;
+    width: 20%;
+    height: 60px;
+}
+
+.navbar {
+    background-color: white;
+    z-index: 5;
+    width: 100%;
+    height: 60px;
+    position: absolute !important;
+    margin-left: 0%;
+    /* margin-top: 30px; */
+    font-weight: bold;
+    top: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.596);
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: black !important;
+    font-weight: 900;
+    font-size: 13px;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.navbar-nav .nav-item .active {
+    color: var(--green) !important;
+}
+
+
+.navbar-brand .logo img {
+    width: 90%;
+    height: 90%;
+}
+
+/* /////////navbar end///////// */
+
+
+
+/* //////granites rate start///// */
+.price{
+    text-align: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.price h4{
+        text-transform: uppercase;
+        color: var(--green);
+        font-weight: 700;
+
+}
+.price h4 span{
+    text-transform: uppercase;
+    color: var(--grey);
+    font-weight: 700;
+
+}
+
+
+/* .price{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+} */
+.price1{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.price2{
+    width: 30%;
+    height: auto;
+    /* border: 2px solid grey; */
+    border: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.rate1 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.price2 .rate1{
+    width: 100%;
+    height: 300px;
+    
+}
+.price2 .rate2 p{
+/* color: var(--grey); */
+font-weight: 700;
+color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////granites rate end///// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+

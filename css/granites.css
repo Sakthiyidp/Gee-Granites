@@ -1,0 +1,203 @@
+
+:root {
+    --green: rgb(15, 146, 67);
+    --grey: rgb(0, 0, 0);
+    --yellow: rgb(255, 240, 1);
+}
+
+
+
+
+/* /////////navbar start///////// */
+
+/* /////////navbar end///////// */
+
+
+
+
+
+
+/* //////granites rate start///// */
+.ca-one .btn-one {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    border-radius: 0px;
+    background-attachment: local;
+    transition: all .5s;
+  }
+  .ca-one .btn-one:hover {
+    color: white;
+    background-color: green;
+    font-weight: bold;
+    background-size: cover;
+    background-position: center center;
+
+  }
+  .ca-one .para {
+    margin-top: 7%;
+  }
+  .ca-one .new:hover {
+    transition: all 5s;
+  }
+  
+  .ca-one{
+    height: auto !important;
+  }
+
+  .mt-7 {
+    margin-top: 7rem!important;
+}
+
+.caone {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.caone:hover {
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+}
+.ca{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.ca .hi{
+height: 100%;
+width: 100%;
+object-fit: contain;
+}
+
+.ca .hi:hover{
+	transform: scale(1.5);
+}
+
+/* /////granites rate end////// */
+
+
+
+.discount-offer {
+  padding: 120px 0;
+  position: relative;
+  background: url("https://png.pngtree.com/background/20210706/original/pngtree-hd-brick-wall-background-picture-image_206286.jpg")
+    no-repeat center fixed;
+  background-size: cover;
+  z-index: 1;
+}
+
+.dicount-offer-content h2 {
+  color: #fff;
+  background: rgba(50, 55, 63, 0.65);
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.about-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--c1);
+  border: 1px solid var(--c1);
+  width: 200px;
+  height: 60px;
+  white-space: nowrap;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: 0 5px 20px rgba(14, 15, 18, 0.2);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.cad-con {
+  background-color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: larger;
+}
+
+.cad-con .cad-title {
+  font-family: "Roboto", sans-serif;
+}
+.cad-con .cad-titletwo {
+  font-family: "Roboto", sans-serif;
+}
+
+.cad-con .cad-title-three {
+  padding-top: 5%;
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(109, 109, 109);
+  font-size: 15px;
+}
+.cad-con .stars {
+  color: #e2bb0c;
+  display: flex;
+  font-size: 15px;
+}
+.cad-con .stars ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+
+.product-shop {
+  width: 100%;
+  display: block;
+  position: relative;
+  margin-bottom: 0;
+  background: #f1f5f7;
+  border-radius: 15px;
+  padding: 45px;
+
+}
+
+.product-shop .product-name .h1 {
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.product-name h5, .product-view .product-shop .product-name h5 a {
+  font-size: 14px!important;
+}
+
+.product-shop .product-name {
+      display: block;
+      text-align: left;
+}
+
+.product-name .h1 {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 600;
+  color: #3b3b3b;
+  padding-bottom: 3px;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+.product-price-details-wrap h3 {
+  color: #000;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 15px 0 0;
+  text-align: left;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,163 @@
+
+:root {
+    --green: rgb(15, 146, 67);
+    --grey: rgb(0, 0, 0);
+    --yellow: rgb(255, 240, 1);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+
+}
+
+
+p{
+    color: black;
+    line-height: 26px;
+    text-transform: none;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+
+
+/* 
+/* /////////navbar end///////// */
+
+
+
+/* ///////header start/////// */
+
+
+
+
+
+.col-12.col-lg-6.col-xl-6.info.pt-5{
+    padding: 50px;
+}
+
+.bg-cover {
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.container-full .info {
+    width: 100%;
+    padding: 0px 15px 80px 50px;
+}
+
+.bg-gray {
+    background-color: #f7f7f7;
+}
+
+
+.bg-orange {
+    background: var(--green) none repeat scroll 0 0;
+}
+
+.container-full {
+    padding: 0px;
+    width: 100%;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px !important; 
+    margin-left: 0px !important; 
+}
+
+
+/* //////////vision mission end//////// */
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px)  {
+    .choseus-area .content-box {
+        display: flex;
+    }
+    .choseus-area .content-box-1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+}
+
+
+@media only screen and (max-width: 991px){
+    .choseus-area .content-box-1 
+    {
+    display: block;
+}
+
+
+}
+
+@media only screen and (max-width: 991px)
+{.choseus-area .thumb {
+    border-bottom: 3px solid #ff5e14;
+    height: 280px;
+}}
+
+
+@media only screen and (max-width: 991px)
+{
+    .about-area .thumb {
+        margin-bottom: 30px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
